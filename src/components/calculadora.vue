@@ -2,17 +2,17 @@
     <div id="layoutPrincipal">
         <div id="calculadora">
             <div id="teclasNum">
-                <div @click="ativarNum(1)" id="botao1" class="botaoCalc">1</div>
-                <div @click="ativarNum(2)" id="botao2" class="botaoCalc">2</div>
-                <div @click="ativarNum(3)" id="botao3" class="botaoCalc">3</div>
-                <div @click="ativarNum(4)" id="botao4" class="botaoCalc">4</div>
-                <div @click="ativarNum(5)" id="botao5" class="botaoCalc">5</div>
-                <div @click="ativarNum(6)" id="botao6" class="botaoCalc">6</div>
-                <div @click="ativarNum(7)" id="botao7" class="botaoCalc">7</div>
-                <div @click="ativarNum(8)" id="botao8" class="botaoCalc">8</div>
-                <div @click="ativarNum(9)" id="botao9" class="botaoCalc">9</div>
-                <div @click="ativarNum(0)" id="botao0" class="botaoCalc">0</div>
-                <div @click="ativarNum('.')" id="botaoPonto" class="botaoCalc">.</div>
+                <div @click="valor = 1" id="botao1" class="botaoCalc">1</div>
+                <div @click="valor = 2" id="botao2" class="botaoCalc">2</div>
+                <div @click="valor = 3" id="botao3" class="botaoCalc">3</div>
+                <div @click="valor = 4" id="botao4" class="botaoCalc">4</div>
+                <div @click="valor = 5" id="botao5" class="botaoCalc">5</div>
+                <div @click="valor = 6" id="botao6" class="botaoCalc">6</div>
+                <div @click="valor = 7" id="botao7" class="botaoCalc">7</div>
+                <div @click="valor = 8" id="botao8" class="botaoCalc">8</div>
+                <div @click="valor = 9" id="botao9" class="botaoCalc">9</div>
+                <div @click="valor = 0" id="botao0" class="botaoCalc">0</div>
+                
             </div>
             <div id="teclasOperacoes">
                 <div @click="ativarOperacoes('+')" id="botaoSoma" class="botaoCalc">+</div>
